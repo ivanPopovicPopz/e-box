@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("img/bb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140px;
+}
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+ul li{
+
+    display: inline-block;
+
+}
+
+ul li a{
+    
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li a:hover{
+    
+   background-color: white;
+   color: black;
+
+}
+
+#logo{
+    
+    height: 120px;
+}
+
+p{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+}
+
+p2{
+    position: absolute;
+    top: 50px;
+    left: 420px;
+    color: rgb(167, 153, 153);
+    font-size: 30px;
+    font-style: italic; 
+}
+
+
+
+body {
+    background-color: rgb(51, 50, 49);
+    
+    
+}
+
+#kutijepocetna{
+    
+    height:300px;
+    margin: 50px auto;
+    border: 1.5px solid black;
+}
+
+#nesto {
+   
+    width: 50%;
+    margin: 0 auto;
+    background-color:  rgb(57, 161, 187);
+    text-align: center;
+    
+}
+
+#dm {
+    height: 200px;
+    width: 50%;
+    margin: 5pt auto;
+    background-color: rgb(16, 119, 145);
+    text-align: center;
+    display:flex;
+    flex:3px;
+    align-items:center;
+    justify-content: center;
+    padding: auto auto;
+
+}
+
+
+
+#komp{
+    height: 240px;
+}
+
+p14{
+    font-size: 30px;
+    font-style:initial;
+}
+ p10{
+     font-size: 20px;
+ }
+
+#glavno {
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(238, 160, 14);
+    text-align: center; 
+    align-content: center;  
+    height: 600pt;
+    
+}
+
+p1{
+    
+    text-align: center;
+    
+    color: rgb(212, 200, 200);
+    font-size: 60px;
+    border: 2px solid rgb(167, 153, 153);
+    border-radius: 10px;
+    border-image-width: 50px;
+}
+
+
+
+p3{
+    text-align: center;
+    
+    
+    color: rgb(7, 5, 5);
+    font-size: 20px;
+}
+
+/*ivan*/
+
+#pozadina {
+    height: 1300px;
+    width: 70%;
+    margin: 10pt auto;
+    background-color: rgba(41, 182, 72, 0.733);
+    text-align: center;
+    display:flex;
+    flex:3px;
+    align-items:center;
+    justify-content: center;
+    padding: auto auto;
+
+}
+
+#sve{
+    position: absolute;
+    top: 50px;
+    left: -450px;
+}
+
+p700{
+    position: absolute;
+    top: 210px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p70{
+    position: absolute;
+    top: 450px;
+    right: 700px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+p71{
+    position: absolute;
+    top: 550px;
+    right: 700px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+p72{
+    position: absolute;
+    top: 650px;
+    right: 700px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+p73{
+    position: absolute;
+    top: 750px;
+    right: 700px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+p74{
+    position: absolute;
+    top: 850px;
+    right: 700px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+
+p77{
+    position: absolute;
+    top: 850px;
+    right: 1020px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    font-style: italic;
+}
+
+#p78{
+    position: absolute;
+    top: 1350px;
+    
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+p75{
+    position: absolute;
+    top: 1000px;
+    right: 1250px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+ p76{
+    position: absolute;
+    top: 1100px;
+    right: 1250px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+} 
+
+/*dugmici x2*/
+#dugme{
+    font-size: 50px;
+    position: absolute;
+    bottom: -300px;
+
+}
+
+#cena{
+    font-size: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 500px;
+
+}
+
+/*inputi mrtvi*/
+input{
+    position: absolute;
+    top: 455px;
+    right: 400px;
+    height: 20px;
+    
+}
+
+#drugi{
+    position: absolute;
+    top: 555px;
+    right: 400px;
+    height: 20px;
+    
+}
+
+#treci{
+    position: absolute;
+    top: 655px;
+    right: 400px;
+    height: 20px;
+    
+}
+
+
+#cetvrti{
+    position: absolute;
+    top: 755px;
+    right: 400px;
+    height: 20px;
+    
+}
+
+#peti{
+    position: absolute;
+    top: 855px;
+    right: 400px;
+    height: 20px;
+    
+}
+
+/* inputi dole levo*/
+
+
+#ime{
+    position: absolute;
+    top: 1009px;
+    right: 800px;
+    height: 20px;
+    
+}
+
+#adresa{
+    position: absolute;
+    top: 1109px;
+    right: 800px;
+    height: 20px;
+    
+    
+}
+
+/*sica*/
+
+
+#sekcija1 { 
+    width: 90%;
+    margin: 0 auto;
+    background-color:  rgb(170, 185, 230);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex: 3px;
+
+
+
+}
+
+
+#k2 {
+    height: 210px;
+}
+
+#k3{
+    height: 210px;
+}
+
+#k4 {
+    height: 210px;
+}
+
+#k14 {
+    height: 210px;
+}
+
+#sekcija2{
+    width: 90%;
+    margin: 0 auto;
+    background-color:  rgb(161, 109, 157);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex: 3px;
+}
+
+#k6 {
+    height: 210px;
+}
+
+#k1{
+    height: 210px;
+}
+
+#k11 {
+    height: 210px;
+}
+
+#k16 {
+    height: 210px;
+}
+
+#k17{
+    height: 210px;
+}
+
+#sekcija3 {
+    width: 90%;
+    margin: 0 auto;
+    background-color:  rgb(226, 223, 26);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex: 3px;
+}
+
+#k5{
+    height: 200px;
+}
+
+#k12 {
+    height: 200px;
+}
+
+#k10 {
+    height: 200px;
+}
+
+#k18{
+    height: 200px;
+}
+
+#k19{
+    height: 200px;
+}
+p100{
+    font-size: 18px;
+    font-style:initial;
+}
+p110{
+    font-size: 18px;
+    font-style:initial;
+}
+p120{
+    font-size: 19px;
+    font-style:initial;
+}
+
+#vremeIdatum {
+    color:white;
+    align-content: center;
+    text-align: center;
+}

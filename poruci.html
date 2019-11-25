@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>E-Box</title>
+</head>
+<body>
+    <header>
+      <div class="main">
+            <p>E-BOX</p>
+            <p2>-razmisljaj izvan kutije-</p2>
+            
+            <img src="D:\p\New folder\css\img\logo.png" id="logo"/>
+        <ul>
+
+            <li><a href="index.html">Pocetna</a></li>
+            <li><a href="poruci.html">Naruci</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="onama.html">O nama</a></li>
+
+        </ul>
+
+      </div>
+
+    </header>
+
+
+      <div id = "pozadina">
+     
+        <img src="D:\p\New folder\css\img\sve.png" id="sve"><br>
+        <p700>Izracunajte cenu i porucite</p700>
+        <p70>Unesite "a":</p70>
+        <p71>Unesite "b":</p71>
+        <p72>Unesite "c":</p72>
+        <p73>Unesite broj komada:</p73>
+        <p74>Vasa cena je:</p74>
+        <p75>Ime i Prezime:</p75>
+        <p76>Adresa:</p76>
+        <p77>*Cena po metru kubnom je 120din.*</p77>
+       
+        <div id = "p78">  </div>
+
+
+        <script>
+        
+        function izracunaj(){
+
+          var a = parseInt(document.getElementById('prvi').value);
+          var b = parseInt(document.getElementById('drugi').value);  
+          var c = parseInt(document.getElementById('treci').value);
+          var brKom = parseInt(document.getElementById('cetvrti').value);
+
+          var resenje = a*b*c/100*brKom*120;
+
+          var rez = document.getElementById('peti').value = resenje + " dinara";
+
+        }
+
+        </script>
+
+
+        <script>
+        
+          function resetuj(){
+            
+            var brojac = 0;
+
+            if( document.getElementById('ime').value == "" ) brojac++;
+            if( document.getElementById('adresa').value == "" ) brojac++;
+
+            if(brojac == 0)
+            document.getElementById('p78').innerHTML = "Vasi podaci su uspesno zabelezeni!";
+            else document.getElementById('p78').innerHTML = "Unesite sve podatke!";
+
+            document.getElementById('prvi').value = "";
+            document.getElementById('drugi').value = "";
+           document.getElementById('treci').value = "";
+            document.getElementById('cetvrti').value = "";
+           document.getElementById('peti').value = "";
+
+           document.getElementById('ime').value = "";
+           document.getElementById('adresa').value = "";
+
+
+
+          }
+        
+        </script>
+
+
+        <button onclick="resetuj();" id="dugme"> Poruci </button>  
+        <button onclick="izracunaj();" id="cena"> Izracunaj cenu </button>  
+
+        <input type="text" id="prvi" name="text1" size="30px">
+        <input type="text" id="drugi" name="text2" size="30px">
+        <input type="text" id="treci" name="text3" size="30px">
+        <input type="text" id="cetvrti" name="text4" size="30px">
+        <input type="text" id="peti" name="text5" size="30px">
+      
+        <input type="text" id="ime" name="text6" size="50px">
+        <input type="text" id="adresa" name="text7" size="50px">
+
+        
+
+
+      </div> 
+
+      
+
+</body>
+</html>
